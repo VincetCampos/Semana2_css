@@ -1,0 +1,58 @@
+.item2{
+    grid-area: opciones;
+    padding: 30px;
+}
+.item3{
+    grid-area: buscador;
+    padding: 20px;
+}
+.item4{
+    grid-area: contenido;
+}
+.item5{
+    grid-area: canales;
+    padding: 30px;
+}
+.videos{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 50px;
+    padding: 50px;
+    margin-left: 100px;
+}
+#yutu{
+    font: 150% arial;
+    margin: 20px;
+}
+#canales{
+    font: 100% arial;
+}
+.video{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.lista{
+    color: white;
+}
+.lista li{
+    color: blue;
+    margin-top: 50px;
+    font: 100% arial;
+}
+.texto{
+    width: 450px;
+    height: 30px;
+    margin-left: 375px;
+    border-radius: 10px;
+}
+.grid-container{
+    display: grid;
+    grid-template-areas: 
+    'opciones buscador buscador buscador buscador buscador'
+    'opciones contenido contenido contenido contenido contenido'
+    'canales contenido contenido contenido contenido contenido'
+    'canales contenido contenido contenido contenido contenido';
+}
